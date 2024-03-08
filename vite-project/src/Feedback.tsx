@@ -70,7 +70,7 @@ const Feedback = () => {
                     <button type="submit" style={{ backgroundColor: '#4D2585', color: 'white' }}>Submit</button>
                 </form>
                 <div style={{marginTop:"1%"}}>
-                    <h2>Feedback:</h2>
+                    <h2>Chat:</h2>
                     <ul>
                         {feedbackList.map((item, index) => (
                             <li key={index}>{item}</li>

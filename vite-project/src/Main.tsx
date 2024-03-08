@@ -11,6 +11,8 @@ import SignUpPage from './signUp.tsx';
 import Feedback from './Feedback.tsx';
 import Salim from './Salim.tsx';
 import ManageSchools from './admin.tsx';
+import Search from './search.tsx';
+import Data from './data.tsx';
 
 const router = createBrowserRouter([
   {
@@ -49,7 +51,15 @@ const router = createBrowserRouter([
   {
     path: "/admin",
     element: <ManageSchools/>,
-  }
+  },
+  {
+    path: "/search",
+    element: <Search/>,
+  },
+  {
+    path: "/data",
+    element: <Data/>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

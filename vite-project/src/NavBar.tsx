@@ -19,16 +19,16 @@ const NavBar: React.FC = () => {
                 </ul>
             </div>
             <div>
-            <ul style={{ padding: "0", margin: "0"}}>
-                <li>
-                <input style={{ paddingTop: "5px", width:"50%"}}
-                    type="search"
-                    name="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                />
-
-                        <Link to="/signUp" className="contrast" style={{paddingLeft:"5%"}}>Sign in / Sign up</Link>
+                <ul style={{ padding: "0", margin: "0"}}>
+                    <li>
+                        <button className="outline secondary" style={{ padding: "8px 16px", backgroundColor: "transparent", border: "1px solid #4D2585", borderRadius: "4px", color: "#4D2585", textDecoration: "none", cursor: "pointer", fontSize:"0.7rem"  }}>
+                            <Link to="/search" style={{ color: "#4D2585", textDecoration: "none" }}>Search</Link>
+                        </button>
+                    </li>
+                    <li>
+                        <button className="outline secondary" style={{ padding: "8px 16px", backgroundColor: "transparent", border: "1px solid #4D2585", borderRadius: "4px", color: "#4D2585", textDecoration: "none", cursor: "pointer", fontSize:"0.7rem" }}>
+                            <Link to="/signUp" style={{ color: "#4D2585", textDecoration: "none" }}>Sign in / Sign up</Link>
+                        </button>
                     </li>
                 </ul>
             </div>
