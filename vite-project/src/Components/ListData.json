@@ -5,7 +5,7 @@
 }, {
     "id": 2,
     "text": "Chat",
-    "href": "/chat"
+    "href": "/feedback"
 }, {
     "id": 3,
     "text": "Innovation",
@@ -25,15 +25,11 @@
 }, {
     "id": 7,
     "text": "Sign In",
-    "href": "/signin"
+    "href": "/signup"
 }, {
     "id": 8,
     "text": "Home",
     "href": "/"
-},{
-    "id": 9,
-    "text": "LinkedIn",
-    "href": "/contact"
 },{
     "id": 10,
     "text": "Email",
@@ -79,8 +75,4 @@
     "text": "Form",
     "href": "/contact"
 }
-
-
-
-
 ] 

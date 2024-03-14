@@ -24,6 +24,7 @@ const SignUpPage: React.FC = () => {
         console.log('Password:', password);
         // Assuming successful signup, set isLoggedIn to true
         setIsLoggedIn(true);
+        isLoggedIn && navigate('/home');
         // Redirect to home page
         navigate('/');
     };

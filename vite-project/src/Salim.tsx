@@ -27,11 +27,11 @@ const Salim: React.FC = () => {
                     </tr>
                     <tr>
                         <td> Integrate features to track the feedback, and facilitate communication between users and administrators</td>
-                        <td><a href="/feedback" style={{color:"#321856"}}>Feedback</a></td>
+                        <td><a href="/contact" style={{color:"#321856"}}>Feedback</a></td>
                     </tr>
                     <tr>
                         <td> Create a form that supports ( upload/ download materials)</td>
-                        <td><a href="/feedback" style={{color:"#321856"}}>Feedback</a></td>
+                        <td><a href="/feedback" style={{color:"#321856"}}>Form</a></td>
                     </tr>
                     <tr>
                         <td>  Create a search engine that optimizes the website's structure, content, and metadata for improved search engine visibility</td>
