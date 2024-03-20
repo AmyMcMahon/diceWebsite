@@ -35,7 +35,7 @@ const Salim: React.FC = () => {
                     </tr>
                     <tr>
                         <td>  Create a search engine that optimizes the website's structure, content, and metadata for improved search engine visibility</td>
-                        <td><a href="/search" style={{color:"#321856"}}>Search Page</a></td>
+                        <td>Click Search in Nav</td>
                     </tr>
                     <tr>
                         <td>Develop a responsive design that adapts seamlessly across various devices</td>

@@ -81,8 +81,29 @@ const Home = () => {
                     <YAxis />
                 </BarChart> 
             </div>
-            
-        </div>
+            </div>
+            <div style={{ margin: "2%", position: "relative" }}>
+                <h2>Testimonials</h2>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                    <div>
+                    <blockquote>
+                        <p>"Great platform! I've learned so much and improved my skills."</p>
+                        <footer>- Dervla Gargan</footer>
+                    </blockquote>
+                    <blockquote>
+                        <p>"D'ISE makes maths so fun, I finally understand probability."</p>
+                        <footer>- Mark Langtry</footer>
+                    </blockquote>
+                    <blockquote>
+                        <p>"I love the interactive learning, it's so engaging."</p>
+                        <footer>- Sarah McMahon</footer>
+                    </blockquote>
+                    </div>
+                    <i className="fa fa-quote-left" aria-hidden="true" style={{ fontSize: "20em", marginLeft: "20%", color: "#DECFED" }}></i>
+                </div>
+                </div>
+
+        
         <Footer/>
         </div>
     );
